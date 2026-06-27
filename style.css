@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.everything{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 150vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    height: 450px;
+    flex-direction: column;
+    width: 30%;
+    padding: 80px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+
+.image img{
+border-radius: 50%;  
+width: 100px;
+height: 100px;
+
+}
+
+.heading{
+    color: white;
+     font-family: "Inter", sans-serif;
+     font-weight: 600;
+     font-size: 24px;
+     margin-bottom: -10px;
+
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.text{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.as{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.as a{
+    padding: 12px 80px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.as a:hover{
+    background-color: hsl(0, 0%, 18%);
+}
+
